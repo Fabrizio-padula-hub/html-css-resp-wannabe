@@ -130,3 +130,32 @@ img {
  .container{
     width: 100%;
 }
+
+@media screen and (max-width: 768px){
+    .why-us .col-left,
+    .why-us .col-right{
+        width: 50%;
+    }
+ }
+
+@media screen and (max-width: 480px){
+    .row{
+        flex-wrap: wrap;
+    }
+    .lessons .col{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .steps .col{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .why-us{
+        background-color: #222222;
+    }
+    .why-us .col-left,
+    .why-us .col-right{
+        width: 100%;
+        margin-top: 40px;
+    }
+ }
